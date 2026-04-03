@@ -1,0 +1,29 @@
+{
+  "name": "rxjs-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:node": "node node/index.js",
+    "start:browser": "npx serve browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maheshgarade/rxjs-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maheshgarade/rxjs-playground/issues"
+  },
+  "homepage": "https://github.com/maheshgarade/rxjs-playground#readme",
+  "dependencies": {
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "serve": "^14.2.6"
+  }
+}
